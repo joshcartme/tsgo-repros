@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "incremental": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "paths": {
+            "@comp/*": ["./components/*"],
+            "@lib/*": ["./lib/*"]
+        }
+    },
+    "references": [
+        { "path": "./lib" }
+    ]
+}

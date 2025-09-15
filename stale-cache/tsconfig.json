@@ -11,6 +11,7 @@
             "@lib/*": ["./lib/*"]
         }
     },
+    "include": ["components/**/*"],
     "references": [
         { "path": "./lib" }
     ]

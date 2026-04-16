@@ -1,0 +1,9 @@
+{
+	"name": "tsgo-union-nesting-bug",
+	"private": true,
+	"dependencies": {
+		"@typescript/native-preview": "^7.0.0-dev.20260416.1",
+		"typescript": "^6.0.2"
+	},
+	"packageManager": "yarn@4.14.0"
+}

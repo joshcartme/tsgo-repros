@@ -1,6 +1,6 @@
-import type { ElementsUnion } from "./elements-union";
+import type { Elements } from "./elements";
 
 export interface SectionApi {
-  type: "section";
-  elements: ElementsUnion;
+	type: "section";
+	elements: Elements;
 }
